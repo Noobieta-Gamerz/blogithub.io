@@ -1,9 +1,9 @@
 permalink: /:year:month:day/:title
-url: https://noobieta-gamerz.github.io/blogithub.io #Your url here
-baseurl: /project
+url: https://noobieta-gamerz.github.io/ #Your url here
+baseurl: /blogithub.io
 
 # variables
-name: Your Site Name
+name: TEST WEB
 description: Your description here
 google_verification: null
 
