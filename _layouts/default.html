@@ -35,7 +35,7 @@
 			<ul>
 				{% assign tags = site.tags | sort %}
 				{% for tag in tags %}
-				<li><a href="https://noobieta-gamerz.github.io/blogithub.io/tag/{{ tag | first | slugify }}https://noobieta-gamerz.github.io/blogithub.io/" title="{{ tag[0] | replace:'-', ' ' }}"><img src="https://noobieta-gamerz.github.io/blogithub.io//assets/img/folder.ico" />{{ tag[0] | replace:'-', ' ' }}</a></li>
+				<li><a href="https://noobieta-gamerz.github.io/blogithub.io/tag/{{ tag | first | slugify }}/blogithub.io/" title="{{ tag[0] | replace:'-', ' ' }}"><img src="https://noobieta-gamerz.github.io/blogithub.io//assets/img/folder.ico" />{{ tag[0] | replace:'-', ' ' }}</a></li>
 				{% endfor %}
 			</ul>
 				</li>
@@ -74,7 +74,7 @@
 			<div class="post_title">
 				<img src="https://noobieta-gamerz.github.io/blogithub.io/assets/img/file.png" />
 				<h1>{{  page.title  }}</h1>
-				<a href="/"><div class="btn"><span class="fa fa-times"></span></div></a>
+				<a href="https://noobieta-gamerz.github.io/blogithub.io/"><div class="btn"><span class="fa fa-times"></span></div></a>
 				<div class="btn btn_max"><span class="fa fa-window-maximize"></span></div>
 				<div class="btn"><span class="fa fa-window-minimize"></span></div>
 			</div>
