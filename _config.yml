@@ -1,6 +1,6 @@
 permalink: /:year:month:day/:title
 url: /blogithub.io/ #Your url here
-baseurl: https://noobieta-gamerz.github.io/blogithub.io/
+baseurl: /
 
 # variables
 name: TEST WEB
